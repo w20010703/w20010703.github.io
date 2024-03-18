@@ -1,0 +1,14 @@
+<html>
+    <div class="results"></div>
+    <script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>
+
+    <script>
+        var dataurl = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQ8c3R6kRweY7rkRyz7OW6hb4Fm4AZHfChV8s5RMJ_EIqY_lCR_RxVAVlyOAK4sLOs0imB7PsKO-Psf/pubhtml';
+        console.log("dataurl: ", dataurl)
+        $(function() {
+          $.get(dataurl, function(data) {
+            console.log(data);
+          });
+        });
+    </script>
+</html>
