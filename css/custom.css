@@ -21,6 +21,10 @@
 	background: url("../img/about_bg.jpg") center center / cover no-repeat;
 }
 
+.displayNone {
+	display: block;
+}
+
 @media (min-width:641px) { 
 	.about_bg {
 		background: url("../img/about.png") center center / cover no-repeat;
@@ -37,5 +41,8 @@
 	.film_btn {
 		margin-bottom: 140px; 
 		margin-left: 30px;
+	}
+	.displayNone {
+		display: none;
 	}
 }
