@@ -1,0 +1,41 @@
+.about_bg {
+	background: url("../img/about_mobile.jpg") center center / cover no-repeat;
+}
+
+.film_bg {
+	background: url("../img/film_mobile.jpg") center center / cover no-repeat; 
+}
+
+.about_btn {
+	margin-bottom: 140px; 
+	margin-left: auto; 
+	margin-right: 70px;
+}
+.film_btn {
+	margin-bottom: 100px; 
+	margin-left: auto; 
+	margin-right: 40px;
+}
+
+.about_html_bg {
+	background: url("../img/about_bg.jpg") center center / cover no-repeat;
+}
+
+@media (min-width:641px) { 
+	.about_bg {
+		background: url("../img/about.png") center center / cover no-repeat;
+	}
+	.film_bg {
+		background: url("../img/film.jpg") center center / cover no-repeat; 
+	}
+
+	.about_btn {
+		margin-bottom: 140px; 
+		margin-left: auto; 
+		margin-right: max(180px, 9vw);
+	}
+	.film_btn {
+		margin-bottom: 140px; 
+		margin-left: 30px;
+	}
+}

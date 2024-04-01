@@ -1,0 +1,1 @@
+var swiper=new Swiper(".swiper-container",{pagination:{el:".swiper-pagination",clickable:!0},speed:600,mousewheel:!0,autoplay:{delay:2500},effect:"fade",loop:!1,slidesPerView:1,navigation:{nextEl:".swiper-button-next",prevEl:".swiper-button-prev"}});
