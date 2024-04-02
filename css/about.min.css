@@ -2952,17 +2952,21 @@ header {
 
 #logo {
     height: 100%;
-    display: block;
-    position: relative
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
 }
 
 #logo img {
     height: 100%;
     width: auto
+
 }
 
 #logo .mobile {
-    display: block
+    display: block;
+    height: 50%;
 }
 
 @media all and (min-width: 768px) {
