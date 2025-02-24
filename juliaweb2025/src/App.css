@@ -1,0 +1,378 @@
+@charset "utf-8";
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+button:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+a:-webkit-any-link {
+  color: white;
+  text-decoration: none;
+}
+
+* {
+  background-color: black;
+}
+
+#root {
+  background-color: black;
+}
+
+.App {
+  font-family: "Gill Sans", sans-serif;
+  background-color: black;
+  color: white;
+  width: 100vw;
+/*  height: 100vh;*/
+}
+
+/*.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}*/
+
+
+
+/*MainPage: introduciton section*/
+/*=======================*/
+.title_section {
+  width: calc(100vw - 100px);
+  padding: 50px;
+  margin: 0;
+}
+
+.main_title {
+  padding: 20px 0;
+  font-size: 8vw;
+  line-height: 9vw;
+  font-weight: 600;
+}
+
+.copyright {
+  text-align: center;
+  padding: 50px 0;
+}
+/*=======================*/
+
+/*MainPage: about section*/
+/*=======================*/
+.about_section {
+  width: calc(100vw - 40px);
+  padding: 20px;
+  margin: 0;
+}
+
+.about_title {
+  padding: 10px;
+  font-size: 40px;
+  line-height: 43px;
+  font-weight: 600;
+}
+/*=======================*/
+
+/*MainPage: work section*/
+/*=======================*/
+.work_section {
+  width: calc(100vw - 40px);
+  padding: 20px;
+  margin: 0;
+}
+
+.work_title {
+  padding: 10px;
+  font-size: 40px;
+  line-height: 43px;
+  font-weight: 600;
+}
+
+.work_card_section {
+  display: flex;
+/*  justify-content: space-between;*/
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 2vw;
+/*  align-items: center;*/
+}
+/*=======================*/
+
+/*MainPage: work section*/
+/*=======================*/
+.about_section_content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2vw;
+}
+
+.about_section_content div {
+
+}
+
+.about_section_content p {
+  font-size: 20px;
+  line-height: 24px;
+
+}
+/*=======================*/
+
+
+
+
+
+/*PPage*/
+/*=======================*/
+.ppage .title_section {
+  width: calc(60vw);
+  padding: 50px 20vw;
+  margin: 0;
+}
+
+.ppage .title_section .date{
+  font-size: 16px;
+  padding: 16px 0;
+}
+
+.ppage .title_section .award{
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.ppage .title_section .title{
+  font-size: 28px;
+  padding: 4px 0 16px 0;
+  font-weight: 600;
+}
+
+.ppage .title_section .team{
+  font-size: 12px;
+  padding: 4px 0 50px 0;
+}
+
+.content_holder {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.gap_w {
+  width: 2%;
+  margin: 0;
+  padding: 0;
+}
+
+.gap_h {
+  width: 100%;
+  height: 1.2vw;
+  margin: 0;
+  padding: 0;
+}
+
+.design_goal {
+  padding: 20vh 0;
+  font-size: 8vh;
+  line-height: calc(8vh + 10px);
+}
+
+.more_detail {
+  padding: 0 0 100px 0;
+}
+
+.more_detail h4{
+  font-size: 26px;
+  font-weight: 600;
+  padding: 50px 0 16px 0;
+}
+
+.more_detail a{
+  font-weight: 600;
+  margin: 0 5px;
+}
+
+/*.ppage .title_section img{
+  margin: 3px 0.5%;
+}
+
+.ppage .title_section video{
+  margin: 3px 0.5%;
+}*/
+/*=======================*/
+
+
+
+
+/*component section*/
+/*=======================*/
+
+/*1. header*/
+/*=======================*/
+.main_header {
+  width: calc(100vw - 40px);
+  height: 40px;
+  padding: 20px;
+  margin: 0;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main_header_title {
+  padding: 0px;
+  margin: 0px;
+  align-items: center;
+}
+
+.main_header_item_holder {
+  padding: 0px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+}
+
+.main_header_item {
+  padding: 0px;
+}
+/*=======================*/
+
+
+
+/*2. workcard*/
+/*=======================*/
+.work_card{
+  width: 22vw;
+  overflow: hidden;
+}
+
+.work_card_img_holder {
+  width: 22vw;
+  height: 22vw;
+  overflow: hidden;
+  border-radius: 0.5rem;
+}
+
+.work_card_img_holder img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.work_card_img_holder img:hover {
+  width: 120%;
+  height: 120%;
+  margin: -10%;
+  object-fit: cover;
+}
+
+.work_card_title {
+  padding: 10px 0 5px;
+  font-size: 20px;
+  line-height: 23px;
+  font-weight: 600;
+}
+
+.work_card_description {
+  font-size: 14px;
+  line-height: 16px;
+}
+/*=======================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
